@@ -1,0 +1,14 @@
+<resources>
+   <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_location_title">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_label">City</string>
+    <string name="pref_location_default">Oakland</string>
+
+</resources>

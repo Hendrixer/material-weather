@@ -2,13 +2,15 @@
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
-        <!--<item name="android:windowContentTransitions">true</item>-->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowExitTransitionOverlap">true</item>
 
         <item name="android:colorPrimary">@color/color_primary</item>
         <item name="android:colorPrimaryDark">@color/color_primaryDark</item>
         <item name="android:colorAccent">@color/color_accent</item>
         <item name="android:navigationBarColor">@color/color_primaryDark</item>
-        <item name="android:textColorPrimary">@color/color_textPrimary</item>
+        <!--<item name="android:textColorPrimary">@color/color_textPrimary</item>-->
 
         <!--<item name="android:windowEnterTransition">@transition/explode</item>-->
         <!--<item name="android:windowExitTransition">@transition/explode</item>-->
