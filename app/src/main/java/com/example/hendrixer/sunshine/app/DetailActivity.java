@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.transition.Explode;
+import android.transition.Slide;
 import android.transition.Transition;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,7 +21,7 @@ public class DetailActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
-        Transition transition = new Explode();
+        Transition transition = new Slide();
         getWindow().setEnterTransition(transition);
         getWindow().setExitTransition(transition);
 

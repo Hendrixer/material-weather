@@ -4,11 +4,26 @@
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
-
     <string name="pref_location_title">Location</string>
     <string name="pref_location_key">location</string>
     <string name="pref_location_label">City</string>
     <string name="pref_location_default">Oakland</string>
+
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_unit_title">Unit</string>
+    <string name="pref_unit_metric">metric</string>
+    <string name="pref_unit_imperial">imperial</string>
+
+    <string-array name="pref_unit_values">
+        <item>imperial</item>
+        <item>metric</item>
+    </string-array>
+
+    <string-array name="pref_unit_options">
+        <item>imperial</item>
+        <item>metric</item>
+    </string-array>
+
+
 
 </resources>

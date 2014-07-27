@@ -1,10 +1,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--<CheckBoxPreference-->
-        <!--android:key="example_checkbox"-->
-        <!--android:title="@string/pref_title_social_recommendations"-->
-        <!--android:summary="@string/pref_description_social_recommendations"-->
-        <!--android:defaultValue="true" />-->
+    <ListPreference
+        android:title="@string/pref_unit_title"
+        android:key="@string/pref_unit_key"
+        android:defaultValue="@string/pref_unit_metric"
+        android:entryValues="@array/pref_unit_values"
+        android:entries="@array/pref_unit_options"/>
 
     <!-- NOTE: EditTextPreference accepts EditText attributes. -->
     <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
