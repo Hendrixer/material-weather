@@ -3,8 +3,5 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hendrixer.sunshine.app.DetailActivity"
-    tools:ignore="MergeRootFrame" >
-
-
-</FrameLayout>
+    tools:context="com.example.hendrixer.sunshine.app.AnimateActivity"
+    tools:ignore="MergeRootFrame" />

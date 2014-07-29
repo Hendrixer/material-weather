@@ -7,5 +7,7 @@
     <string name="action_map">Map</string>
     <string name="action_refresh" translatable="false">Refresh</string>
     <string name="title_activity_detail">Details</string>
+    <string name="action_share">Share</string>
+    <string name="title_activity_animate">AnimateActivity</string>
 
 </resources>

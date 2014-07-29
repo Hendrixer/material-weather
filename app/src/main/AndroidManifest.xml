@@ -34,6 +34,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.hendrixer.sunshine.app.MyActivity" />
         </activity>
+        <activity
+            android:name=".AnimateActivity"
+            android:label="@string/title_activity_animate"
+            android:parentActivityName=".DetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hendrixer.sunshine.app.DetailActivity" />
+        </activity>
     </application>
 
 </manifest>
+

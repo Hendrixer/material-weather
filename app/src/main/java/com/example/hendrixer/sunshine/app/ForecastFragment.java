@@ -55,8 +55,8 @@ public class ForecastFragment extends Fragment {
                        new ArrayList<String>());
 
         View rootView = inflater.inflate(R.layout.fragment_my, container, false);
-
         ListView listView = (ListView) rootView.findViewById(R.id.listview_forecast);
+
         listView.setAdapter(mForecastAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -69,6 +69,7 @@ public class ForecastFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
         return rootView;
     }
 

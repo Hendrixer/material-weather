@@ -14,4 +14,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to animation"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:contentDescription="android_man"
+        android:src="@drawable/ic_android"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button"
+        android:viewName="roboman"
+        android:layout_marginBottom="43dp"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
